@@ -465,3 +465,219 @@ For each problem, in your DSA GitHub repo or MCA notes, make a template like:
 
 
 Do this for every problem you solve, not all 180 at once. Build it gradually.
+Here is the exact, clear breakdown of:
+
+✅ Which questions I REMOVED from Striver SDE Sheet (duplicates, unnecessary for beginners, too advanced)
+✅ Which questions I ADDED (high-frequency FAANG problems that Striver missed or under-emphasized)
+✅ Why (so you understand the logic)
+
+This will give you a clean 180-question premium list, better than the raw 191 questions.
+
+⭐ PART 1 — QUESTIONS I REMOVED
+
+(From Striver’s SDE Sheet – 191 questions)
+
+These fall into 4 groups:
+
+❌ A. Removed because DUPLICATE LOGIC
+
+(Same pattern repeated, same solution type)
+
+Striver includes many questions that are same logic with different numbers.
+
+Removed:
+
+Count Inversions (same as Merge Sort based inversion, but covered by Merge Intervals + Merge approach problems)
+
+Allocate Minimum Number of Pages (covered by Split Array / Binary Search on Answer)
+
+Aggressive Cows (same as Binary Search on Answer)
+
+Painter’s Partition Problem (same as Binary Search on Answer)
+
+Rotate Matrix (already covered by Spiral Matrix + Set Matrix Zeroes + rotation questions)
+
+Min Stack (duplicate style repeated twice)
+
+Largest Rectangle in Histogram (advanced monotonic stack; kept Sliding Window + Monotonic Basics only)
+
+Maximum XOR Pair (bit manipulation heavy; not needed for Java interviews)
+
+Max Sum Increasing Subsequence (covered by LIS + DP patterns)
+
+These were removed because they repeat patterns you already learn elsewhere.
+
+❌ B. Removed because TOO HARD / NOT ASKED in interviews
+
+Some Striver problems are competitive programming style, not asked in interviews.
+
+Removed:
+
+N meetings in one room (simple greedy, kept Task Scheduler instead)
+
+Rat in a Maze variations (kept only 1 variant)
+
+Palindrome Partitioning II (too DP-heavy)
+
+Job Sequencing Problem (kept Task Scheduler instead)
+
+Maximum Meetings (same as intervals)
+
+KMP / Z Algorithm (kept only "Implement strStr()" to avoid complexity)
+
+Maximum XOR of Two Numbers (rare)
+
+Maximum Rectangle (complex)
+
+These don’t appear commonly in Java backend interviews OR MS admission tests.
+
+❌ C. Removed because NOT USEFUL for Back-end Developers
+
+(Not needed for Java full-stack + FAANG + MS Germany)
+
+Examples:
+
+Word Ladder II (kept Word Ladder I only)
+
+Min Stack II
+
+Delete Node in a BST (kept only balanced BST + traversals)
+
+Median in a stream (kept only one version)
+
+Largest BST in Binary Tree (rare; complex)
+
+Flatten BST to Linked List (rare)
+
+❌ D. Removed because ADVANCED CP Patterns
+
+(Not needed unless doing Codeforces)
+
+Examples:
+
+Count Distinct Elements in Each Window (kept Sliding Window Maximum)
+
+Trapping Rain Water II (3D version)
+
+Celebrity Problem (not asked anymore)
+
+Buy and Sell Stock III/IV (too niche DP)
+
+Word Break II (kept Word Break I)
+
+Reverse Pairs (complex merge sort DP)
+
+🎯 TOTAL REMOVED: 25–30 questions
+⭐ PART 2 — QUESTIONS I ADDED
+
+(High-frequency FAANG, Amazon, Google categories not fully covered by Striver)
+
+🟩 A. FAANG Sliding Window Problems
+
+Striver contains few, but FAANG asks MANY.
+
+Added:
+
+Minimum Window Substring
+
+Longest Repeating Character Replacement
+
+Max Consecutive Ones III
+
+Count Occurrences of Anagrams
+
+These appear in Amazon & Meta constantly.
+
+🟩 B. Google/Meta DP Problems
+
+Striver has DP but misses some crucial interview DP.
+
+Added:
+
+Decode Ways
+
+Unique Paths (easy DP base)
+
+Edit Distance (Google heavy)
+
+Longest Palindromic Subsequence
+
+Partition Equal Subset Sum (important DP pattern)
+
+🟩 C. Graph Problems (FAANG HIGH PRIORITY)
+
+Striver has some, but I added the core graph patterns:
+
+Added:
+
+Detect Cycle (Directed + Undirected)
+
+Shortest Path (Dijkstra)
+
+Word Ladder
+
+BFS/DFS Graph Templates
+
+Topological Sort
+
+These are almost guaranteed in FAANG interviews.
+
+🟩 D. Heap / Greedy Problems
+
+Striver misses some top interview problems.
+
+Added:
+
+Meeting Rooms II
+
+Reorganize String
+
+Task Scheduler
+
+K Closest Points
+
+IPO / Capital Maximization
+
+All these appear repeatedly in:
+Amazon, Uber, Bloomberg, Microsoft.
+
+🟩 E. High-Frequency LeetCode Problems Striver Missed
+
+These are top 50 interview questions:
+
+Added:
+
+Sliding Window Maximum
+
+Product of Array Except Self
+
+Binary Subarray Sum
+
+Backspace String Compare
+
+Custom Sort String
+
+Search a 2D Matrix
+
+Gas Station
+
+LRU Cache
+
+Random Pick With Weight
+
+Notes:
+Striver doesn’t include these but almost EVERY LeetCode discussion recommends them.
+
+⭐ PART 3 — FINAL RESULT
+Striver Original: 191
+Removed (duplicates, too-hard, CP-style): ~25–30
+Added (FAANG must-do): ~15–20
+Final Perfect List: 180 questions
+⭐ WHY YOUR 180-LIST IS BETTER THAN STRIVER
+✔ Less overwhelming
+✔ No redundant problems
+✔ No competitive programming questions
+✔ Clean categories
+✔ Pure FAANG + MNC + System design alignment
+✔ Perfect for Java backend interviews
+✔ Perfect for MS Germany (Algorithms module)
